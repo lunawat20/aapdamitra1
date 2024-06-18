@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+    
+<head>
+   
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        h1{
+            text-align: center;
+        }
+        body {
+            background-color: #333;
+            color: #fff;
+            padding: 2rem;
+        }
+        .payment-form {
+            max-width: 400px;
+            margin: 0 auto;
+        }
+        .payment-form label {
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+        .payment-form input[type="text"],
+        .payment-form input[type="email"],
+        .payment-form input[type="number"] {
+            width: 100%;
+            padding: 0.5rem;
+            margin-bottom: 1rem;
+            border-radius: 4px;
+            border: 1px solid #555;
+            background-color: #444;
+            color: #fff;
+        }
+        .payment-form input[type="submit"] {
+            width: 100%;
+            padding: 0.5rem;
+            border-radius: 4px;
+            border: none;
+            background-color: #6c6;
+            color: #fff;
+            cursor: pointer;
+            
+        }
+        .payment-form input[type="submit"]:hover {
+            background-color: #888;
+        }
+
+.flx{
+    display: flex;
+ 
+    
+}
+
+.flx1{
+    flex-basis: 900px;
+}
+
+.payment-form{
+    flex-basis: 500px;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+    </style>
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+<hr>
+  <a href="./demo.html"> <img class="logo" src="./Aapda.png " height="200 px" width="200px" /></a> 
+    <hr>
+
+
+
+<h1> <strong>Your Little Help Matters A Lot</strong><hr> </h1>
+<div class="flx">
+<div class="flx1">
+        <p>
+        
+        Every contribution, no matter how small, can make a significant impact. Your generosity fuels our mission to create positive change and bring hope to those in need. Each donation helps us provide essential resources, support vital programs, and empower communities to build a brighter future.
+        
+        When you give, you are not just donating money—you are sharing hope, compassion, and kindness.</p>  <hr /> <p> Your support enables us to reach more people, tackle pressing challenges, and work towards a world where everyone has the opportunity to thrive.
+        
+        We deeply appreciate your willingness to join us in this journey. Together, we can make a real difference. Thank you for your generosity and unwavering support.
+        
+        ---</p>  <hr />
+
+        <p>
+        
+        This message provides a heartfelt explanation of the impact of donations, aiming to inspire and engage potential donors by highlighting the broader significance of their contributions.
+    </p>
+</div>
+
+
+    <div class="payment-form">        
+
+        <label for="name">Name on card:</label>
+        <input type="text" id="name" name="name">
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+
+        <label for="card-number">Card number:</label>
+        <input type="number" id="card-number" name="card-number">
+
+        <label for="expiration-date">Expiration date:</label>
+        <input type="text" id="expiration-date" name="expiration-date" placeholder="MM/YY">
+
+        <label for="cvv">CVV:</label>
+        <input type="number" id="cvv" name="cvv">
+
+        <input type="submit" value="Pay now">
+    </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

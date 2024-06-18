@@ -1,0 +1,60 @@
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+  }
+  
+  .navbar-nav .nav-item {
+    margin-right: 60px; /* Adjust as needed    is se spacing add hogi...*/ 
+  }
+
+  .navbar-nav .nav-item:last-child {
+    margin-right: 0; /* Remove margin from the last item */
+  }
+
+  .nav-link.active {
+    margin-left: 25px; /* Adjust the value as needed */
+  }
+  
+  .btn.btn-outline-danger{
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+
+  height: 80px;
+  width: 250px;
+background-color: red;
+
+
+  }
+  .btn-clr{
+    color: black;
+    font-style: bold;
+    font-size: larger;
+    font-weight: 500;
+  }
+  .btn-c{
+    color: black;
+    font-style: bold;
+    font-size: larger;
+    font-weight: 500;
+  }
+
+  .btn.btn-outline-donation{
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+
+  height: 80px;
+  width: 250px;
+background-color: blue;
+  }
+
+  
+
+
+
+
+
+
+

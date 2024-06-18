@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Needs</title>
+    <link rel="stylesheet" href="need.css">
+</head>
+<body>
+    <header>
+        <h1>Needs</h1>
+    </header>
+
+    <main>
+        <div class="food-items" id="food">
+            <h2>Food</h2>
+            <form onsubmit="return handleSubmit(event)">
+                <label for="riceQuantity">Rice Quantity in Kg:</label>
+                <input type="number" id="riceQuantity" name="riceQuantity" min="1">
+                <br><br>
+                <label for="wheatQuantity">Wheat Flour Quantity in Kg:</label>
+                <input type="number" id="wheatQuantity" name="wheatQuantity" min="1">
+                <br><br>
+                <label for="vegetablesQuantity">Vegetables Quantity in Kg:</label>
+                <input type="number" id="vegetablesQuantity" name="vegetablesQuantity" min="1">
+                <br><br>
+                <label for="fruitsQuantity">Fruits Quantity in Kg:</label>
+                <input type="number" id="fruitsQuantity" name="fruitsQuantity" min="1">
+                <br><br>
+                <label for="proteinQuantity">Drinking Water in Litre:</label>
+                <input type="number" id="proteinQuantity" name="proteinQuantity" min="1">
+                <br><br>
+                <label for="otherFoodItems">Others (if any):</label>
+                <input type="text" id="otherFoodItems" name="otherFoodItems">
+                <br><br>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+
+        <div id="medicalEmergency">
+            <h2>Medical Emergency</h2>
+            <form onsubmit="return handleSubmit(event)">
+                <label for="medicineName">Medicine Name/Disease:</label>
+                <input type="text" id="medicineName" name="medicineName">
+                <br><br>
+                <label for="medicineQuantity">Quantity:</label>
+                <input type="number" id="medicineQuantity" name="medicineQuantity" min="1">
+                <br><br>
+                <label for="emergencyDetails">Details of Medical Emergency:</label>
+                <textarea id="emergencyDetails" name="emergencyDetails" rows="4" cols="50"></textarea>
+                <br><br>
+                <label>
+                    <input type="checkbox" id="pregnantWomen" name="pregnantWomen">
+                    If any Pregnant women is present
+                </label>
+                <br><br>
+                <label>
+                    <input type="checkbox" id="doctorRequirement" name="doctorRequirement">
+                    If requirement of any doctor is needed
+                </label>
+                <br><br>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </main>
+
+    <script>
+        function handleSubmit(event) {
+            event.preventDefault();
+            window.location.href = 'thankyou.html';
+        }
+    </script>
+</body>
+</html>
